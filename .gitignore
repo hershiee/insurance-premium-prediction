@@ -1,0 +1,30 @@
+# Virtual environment
+myenv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ML Model (not yours to share)
+model/
+*.pkl
+*.joblib
+*.h5
+
+# Config (may have secrets)
+config/
+
+# Environment variables
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
