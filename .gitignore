@@ -2,25 +2,28 @@
 myenv/
 venv/
 env/
+.venv/
 
-# Python cache
+# Python cache — IMPORTANT
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.pycache
 
-# ML Model (not yours to share)
+# ML Model (belongs to tutorial author)
 model/
 *.pkl
 *.joblib
 *.h5
+*.pt
+*.pth
 
-# Config (may have secrets)
-config/
 
 # Environment variables
 .env
 *.env
+.env.local
 
 # VS Code
 .vscode/
@@ -28,3 +31,10 @@ config/
 # Windows
 Thumbs.db
 desktop.ini
+
+# Compiled python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
